@@ -1,0 +1,56 @@
+.form-container {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.field input, select {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 8px 16px;
+    width: 100%;
+    min-height: 44px;
+    border: unset;
+    border-radius: 4px;
+    outline-color: rgb(84 105 212 / 0.5);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    margin-bottom: 24px;
+}
+
+input[type="submit"] {
+    background-color: rgb(34, 113, 177);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, 
+                rgb(34, 113, 177) 0px 0px 0px 1px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    min-height: 44px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #3f4fa1;
+}
+
+.avs_select_el {
+    border: 1px solid #d3d4d8 !important;
+    padding: 8px 16px!important;
+    border-radius: 4PX !important;
+}
+
+.avs_select_el:focus {
+    border: 1px solid rgb(84, 105, 212);
+}

@@ -1,0 +1,21 @@
+#wpbody-content {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.form-container {  
+    align-self: center;
+    height: 60vh;
+    width: 30vw;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    border-radius: 10px;
+}
+  
+.form-header { grid-area: 2 / 2 / 3 / 5; } 
+.form-content { grid-area: 3 / 2 / 7 / 5; }

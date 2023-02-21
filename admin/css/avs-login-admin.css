@@ -1,0 +1,19 @@
+@import 'https://css.gg/info.css';
+@import './components/positioning.css';
+@import './components/styling.css';
+@import './components/tooltip.css';
+@import './components/utils.css';
+
+@import './components/wp-notices.css';
+
+.field label {
+    display: block;
+    padding-bottom: 10px !important;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-header {
+    margin-bottom: 15px !important;
+}
+
